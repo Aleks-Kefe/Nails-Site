@@ -1,0 +1,480 @@
+        nav {
+            display: flex;
+            background: rgb(251, 83, 83);
+            width: 100%;
+        }
+        /* nav #navbar {
+    display: flex; 
+} 
+*/
+        
+        #navlogo .fa {
+            display: none;
+        }
+        
+        #navlogo {
+            width: 50%;
+            display: flex;
+        }
+        
+        #navlogo p {
+            text-align: center;
+            font-weight: 900;
+            font-size: 25px;
+            font-family: cursive;
+        }
+        
+        #navlogo img {
+            width: 10%;
+        }
+        
+        #navlogo p {
+            color: rgb(244, 201, 201);
+        }
+        
+        #navlink ul li {
+            display: inline;
+            margin-right: 50px;
+            line-height: 50px;
+        }
+        
+        #navlink ul li a {
+            text-decoration: none;
+            transition: ease-in-out .10s;
+        }
+        
+        #navlink ul li a:hover {
+            border-bottom: 2px solid black;
+        }
+        /* introduction */
+        
+        section #introduction {
+            position: relative;
+        }
+        
+        #introduction {
+            background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .9)), url('/images/main-bg.jpeg') top center;
+            /* background-attachment: fixed; */
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 500px;
+            position: absolute;
+            width: 98.7%;
+            margin-bottom: 500px;
+            border-bottom: 10px solid rgb(251, 83, 83);
+        }
+        
+        #introduction p {
+            font-size: 50px;
+            color: rgb(244, 201, 201);
+            text-transform: uppercase;
+            /* text-align: center; */
+            margin-top: 150px;
+            line-height: 90px;
+        }
+        
+        #action {
+            position: relative;
+            display: flex;
+        }
+        
+        #action #intro span {
+            color: #fff;
+        }
+        
+        #action #button input {
+            position: absolute;
+            right: 5px;
+            margin-right: 15px;
+            background: rgb(251, 83, 83);
+            color: #fff;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        
+        #action #button input:hover {
+            background: none;
+            border: 2px solid rgb(251, 83, 83);
+            color: rgb(244, 201, 201);
+        }
+        /* about */
+        
+        #about {
+            margin-top: 510px;
+        }
+        
+        #about {
+            position: relative;
+            background: rgb(244, 201, 201);
+            display: flex;
+            padding: 20px;
+            align-items: center;
+        }
+        
+        #aboutleft,
+        #aboutcenter,
+        #aboutright {
+            width: 33%;
+            color: rgb(251, 83, 83);
+        }
+        
+        #about #aboutleft p {
+            font-size: 40px;
+        }
+        /* #about #aboutcenter p {
+    font-size: 40px;
+}
+
+#about #aboutright p {
+    font-size: 40px;
+} */
+        
+        #about #aboutleft img {
+            width: 67%;
+            border-radius: 10px;
+        }
+        
+        #about #aboutcenter img {
+            border-radius: 10px;
+            width: 80%;
+        }
+        
+        #about #aboutright img {
+            border-radius: 10px;
+            width: 70%;
+        }
+        /* services */
+        
+        #services {
+            position: relative;
+            background: rgb(244, 201, 201);
+            margin-top: 0;
+            border-top: 10px solid rgb(251, 83, 83);
+            text-align: center;
+            border-bottom: 10px solid rgb(251, 83, 83);
+        }
+        
+        #services hr {
+            width: 80%;
+            margin-top: 20px;
+        }
+        
+        #services #heading,
+        #testimonial #heading,
+        #footer #heading {
+            text-align: center;
+            font-weight: bold;
+            font-size: 30px;
+            color: rgb(251, 83, 83);
+            padding: 30px;
+        }
+        
+        #servicescontent {
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+        
+        #services img {
+            width: 90%;
+            border-radius: 30px;
+            border: 2px solid rgb(251, 83, 83);
+        }
+        
+        #services .price {
+            position: absolute;
+            bottom: 20%;
+            padding: 15px;
+            background: rgb(251, 83, 83);
+            color: rgb(244, 201, 201);
+            border-radius: 20px;
+            cursor: pointer;
+            margin-left: 8.5%;
+            width: 10%;
+            transform: translate(-20%, -20%);
+        }
+        
+        #services .price:hover {
+            background: none;
+            border: 2px solid rgb(251, 83, 83);
+            color: rgb(244, 201, 201);
+        }
+        
+        #servicescontent p,
+        span {
+            color: rgb(251, 83, 83);
+            font-size: 25px;
+        }
+        
+        #servicescontent span {
+            color: rgb(251, 83, 83);
+            font-size: 15px;
+        }
+        /* TESTIMONIALS */
+        
+        #testimonial {
+            border-bottom: 10px solid rgb(251, 83, 83);
+        }
+        
+        #testimonial #testcontainer {
+            display: flex;
+            background: rgb(244, 201, 201);
+        }
+        
+        #testimonial #left #intro {
+            font-size: 30px;
+            color: rgb(251, 83, 83);
+        }
+        
+        #testimonial #left img {
+            width: 50%;
+            border-radius: 10%;
+            border: 3px solid rgb(251, 83, 83);
+        }
+        
+        #testimonial #left {
+            width: 50%;
+            display: block;
+            padding: 20px;
+        }
+        
+        #testimonial #right {
+            width: 50%;
+            padding: 20px;
+        }
+        
+        #testimonial #right p {
+            color: rgb(251, 83, 83);
+            padding: 30px;
+        }
+        
+        #testimonial #heading {
+            background: rgb(244, 201, 201);
+            ;
+        }
+        /* comfort */
+        
+        #comfort {
+            height: 500px;
+            background: rgb(251, 83, 83);
+            color: rgb(244, 201, 201);
+            margin-top: 0;
+            padding: 30px;
+        }
+        
+        #comfort #heading {
+            text-align: center;
+            font-weight: bold;
+            font-size: 30px;
+            padding: 30px;
+        }
+        
+        #comfort p {
+            font-size: 35px;
+        }
+        /* footer */
+        
+        footer {
+            position: relative;
+        }
+        
+        #footcontainer {
+            position: absolute;
+            height: 500px;
+            width: 100%;
+            background: rgb(244, 201, 201);
+            display: flex;
+            padding: 30px;
+            border-bottom: 10px solid rgb(251, 83, 83);
+            color: rgb(251, 83, 83);
+            text-align: center;
+        }
+        
+        #footer #heading {
+            background: rgb(244, 201, 201);
+        }
+        
+        #footcontainer #left {
+            padding: 30px;
+            margin-right: 40%;
+        }
+        
+        #footcontainer #contact {
+            display: flex;
+            margin-right: 10%;
+            text-align: justify;
+        }
+        
+        #footcontainer #contact #phone {
+            margin-right: 15%
+        }
+        
+        ;
+        #footcontainer #sociallink {
+            text-align: center;
+            display: flex;
+            margin-left: 33%;
+        }
+        
+        #footcontainer #sociallink i {
+            text-align: center;
+            font-size: 30px;
+            margin-right: 3%;
+        }
+        /* media query */
+        
+        @media (max-width: 887px) {
+            nav {
+                position: relative;
+            }
+            #navlink {
+                display: none;
+            }
+            #navlogo {
+                width: 50%;
+                display: flex;
+            }
+            #navlogo .fa {
+                display: block;
+                position: absolute;
+                right: 10px;
+                font-size: 25px;
+                line-height: 60px;
+                color: rgb(244, 201, 201);
+            }
+            #navlogo p {
+                font-weight: 900;
+                font-size: 15px;
+                font-family: cursive;
+                margin-top: 7%;
+            }
+            #navlogo img {
+                width: 20%;
+            }
+            #introduction {
+                width: 97.5%;
+            }
+            /* about */
+            #about {
+                text-align: center;
+                display: block;
+            }
+            #aboutleft,
+            #aboutcenter,
+            #aboutright {
+                width: 50%;
+                color: rgb(251, 83, 83);
+                margin-left: 25%;
+                text-align: justify;
+            }
+            #about #aboutleft p {
+                font-size: 20px;
+            }
+            #about #aboutleft img {
+                width: 100%;
+                border-radius: 10px;
+            }
+            #about #aboutcenter img {
+                border-radius: 10px;
+                width: 100%;
+            }
+            #about #aboutright img {
+                border-radius: 10px;
+                width: 100%;
+            }
+            /* services */
+            #services img {
+                width: 90%;
+                border-radius: 30px;
+                border: 2px solid rgb(251, 83, 83);
+            }
+            #services #price1 {
+                position: absolute;
+                left: 35%;
+                bottom: 82%;
+                padding: 10px;
+                font-size: 15px;
+                width: 20%;
+            }
+            #services #price2 {
+                position: absolute;
+                left: 35%;
+                bottom: 57%;
+                padding: 10px;
+                font-size: 15px;
+                width: 20%;
+            }
+            #services #price3 {
+                position: absolute;
+                left: 35%;
+                bottom: 32%;
+                padding: 10px;
+                font-size: 15px;
+                width: 20%;
+            }
+            #services #price4 {
+                position: absolute;
+                left: 35%;
+                bottom: 7%;
+                padding: 10px;
+                font-size: 15px;
+                width: 20%;
+            }
+            #services hr {
+                width: 70%;
+            }
+            #services #heading {
+                font-size: 25px;
+                padding: 25px;
+            }
+            #servicescontent {
+                display: block;
+            }
+            #services img {
+                width: 40%;
+            }
+            #servicescontent p,
+            span {
+                font-size: 25px;
+            }
+            #servicescontent span {
+                font-size: 15px;
+            }
+            /* testimonial */
+            #testimonial #testcontainer {
+                display: block;
+            }
+            #testimonial #left #intro {
+                font-size: 25px;
+            }
+            #testimonial #left img {
+                width: 70%;
+            }
+            #testimonial #left {
+                margin-left: 27%;
+            }
+            #testimonial #right {
+                margin-left: 20%;
+            }
+            /* footer */
+            #footcontainer {
+                padding: 2px;
+            }
+            #footcontainer #left {
+                margin-right: 5%;
+                border-right: 10px solid rgb(251, 83, 83);
+            }
+            #footcontainer #right img {
+                wi
+            }
+            #footcontainer #sociallink {
+                text-align: center;
+                display: flex;
+                margin-left: 33%;
+            }
+            #footcontainer #sociallink i {
+                text-align: center;
+                font-size: 30px;
+                margin-right: 3%;
+            }
+        }
